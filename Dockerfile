@@ -9,4 +9,4 @@ RUN unzip  burger-king.zip
 RUN cp -rvf  food-website-template/* .
 RUN rm -rf burger-king.zip  food-website-template
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 
